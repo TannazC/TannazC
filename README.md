@@ -37,7 +37,7 @@ A **Python-based AI opponent** for the classic **Gomoku board game**, capable of
 ---
 
 ### 🏆 **[Exercise Gamification System](#)**
-A **fitness tracking simulation** that rewards users with **stars and hedons (pleasure points)** for exercising. Models **real-world motivation and behavioral strategies**.  
+A **fitness tracking simulation** that rewards users with **stars and hedons (points)** for exercising. Models **real-world motivation and behavioral strategies**.  
 ✅ **Python & State Management**  
 ✅ **Simulation & Event Handling**  
 ✅ **Decision Algorithms for Behavioral Modeling**  
