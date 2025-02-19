@@ -1,9 +1,9 @@
 # Hi there, I'm Tannaz Chowdhury! 👋  
 
-💻 **Software Developer | Engineering & Computer Science Student**  
+💻 **Software Developer | Engineering Science Student**  
 🔬 Passionate about **algorithmic problem-solving, AI, and system programming**  
 🎮 Exploring **game mechanics, security, and high-performance computing**  
-🚀 Always learning and building projects in **Python and C**  
+🚀 Always learning and building projects 
 
 ---
 
