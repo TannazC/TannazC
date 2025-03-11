@@ -1,6 +1,6 @@
 # Hi there, I'm Tannaz Chowdhury! 👋  
 
-💻 **Software Developer | Engineering Science Student @ The University of Toronto **  
+💻 Software Developer | Engineering Science Student @ The University of Toronto   
 🔬 Passionate about **algorithmic problem-solving, AI, and system programming**   
 🚀 Always learning and building projects 
 
