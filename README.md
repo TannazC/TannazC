@@ -1,56 +1,64 @@
-# Hi there, I'm Tannaz Chowdhury! 👋  
+ChatGPT said:
+Hi, I'm Tannaz Chowdhury
 
-💻 Software Developer | Engineering Science Student @ The University of Toronto   
-🔬 Passionate about **algorithmic problem-solving, AI, and system programming**   
-🚀 Always learning and building projects 
+Computer Engineering student at the University of Toronto, working at the intersection of software, hardware, and control systems. Most projects involve writing code that talks to real hardware, runs on FPGAs, or drives numerical simulation.
 
----
+Tech Stack
 
-## 🔧 Tech Stack  
-- **Languages:** Python 🐍 | C 💡 | (MATLAB ⚙️) | Bash 🖥️  
-- **Concepts:** Algorithm Design, Cryptography, Game Development, System Programming  
-- **Tools & Platforms:** Linux 🐧 | Git & GitHub 🌍 | VS Code | Vim  
+Languages: C/C++, Python, MATLAB, Verilog, SQL
 
----
+Concepts: Embedded systems, control systems, numerical simulation, FPGA design, data analysis, algorithms
 
-## 📂 Featured Projects  
+Tools & Platforms: Linux, Git/GitHub, DE1-SoC, VGA pipeline, LTSpice, Onshape CAD
 
-### 🔍 **[Semantic Similarity Synonyms](#)**
-An **AI-powered system** that determines word similarity using **semantic descriptor vectors** and **cosine similarity**.  
-✅ **Natural Language Processing (NLP)**  
-✅ **Cosine Similarity & Vector Mathematics**  
-✅ **Dictionary-Based Data Storage**  
+Featured Projects
+Lane-Runner FPGA/VGA Game · Verilog, C
 
-📝 **[Project Repository](#)**  
+Multi-lane obstacle-avoidance game implemented directly in hardware on a DE1-SoC board.
 
----
+Drove a 640×480 VGA display with a custom sprite pipeline and .mif ROMs for pixel-accurate rendering
 
-### 🎮 **[Gomoku AI](#)**
-A **Python-based AI opponent** for the classic **Gomoku board game**, capable of **heuristic-based decision-making** and detecting **winning sequences**.  
-✅ **Game AI & Heuristic Evaluation**  
-✅ **Pattern Recognition & Move Ranking**  
-✅ **Algorithmic Thinking in Python**  
+Implemented player movement via on-board keys with reliable collision detection across five lanes
 
-📝 **[Project Repository](#)**  
+Designed a modular architecture with separate Player, Obstacle, and Game state machines plus a render pipeline, using LEDs for fast hardware debugging
 
----
+Hydrofoil Auto-Stabilization System · MATLAB, Embedded C
 
-### 🏆 **[Exercise Gamification System](#)**
-A **fitness tracking simulation** that rewards users with **stars and hedons (points)** for exercising. Models **real-world motivation and behavioral strategies**.  
-✅ **Python & State Management**  
-✅ **Simulation & Event Handling**  
-✅ **Decision Algorithms for Behavioral Modeling**  
+Control system for a human-powered hydrofoil’s active stabilization.
 
-📝 **[Project Repository](#)**  
+Processed 10,000+ ultrasonic sensor readings and applied mean/median filters to clean altitude data
 
----
+Implemented multi-axis PID control in MATLAB and embedded C to keep the foil within a stable flight window
 
-## 🚀 Let's Connect  
-📬 **Email:** [tannazhchowdhury@gmail.com)   
-💡 **LinkedIn:** [https://www.linkedin.com/in/tannaz-chowdhury-5365691ba/]  
+Integrated control logic with servos and Arduino-based actuation, validating performance through simulation and bench tests
 
----
+Bridge Load Simulation and Optimisation · Python, MATLAB
 
-⚡ **"Code. Debug. Learn. Repeat!"**  
-🚀 Open to collaborations on **Python & C projects**!  
+Numerical modelling for structural behaviour under moving loads.
+
+Modelled moving load distribution along a bridge to identify high-stress and potential failure zones
+
+Used Python (NumPy) and MATLAB to compute and visualise response under different loading conditions
+
+Explored cross-sectional geometry changes to improve performance under repeated loading
+
+Semantic Similarity System · Python
+
+Text-processing system for measuring similarity between words using vector representations.
+
+Built semantic descriptor vectors from corpus data and compared them using cosine similarity
+
+Implemented dictionary-based data structures for efficient lookup and scoring
+
+Focused on clean data pipelines and reproducible experiments over black-box models
+
+Connect
+
+Email: tannazhchowdhury@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/tannaz-chowdhury-5365691ba/
+
+GitHub: https://github.com/TannazC
+
+Open to roles and collaborations that blend low-level programming, control systems, and hardware-aware software.
  
