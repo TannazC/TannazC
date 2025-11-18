@@ -1,4 +1,4 @@
-ChatGPT said:
+
 Hi, I'm Tannaz Chowdhury
 
 Computer Engineering student at the University of Toronto, working at the intersection of software, hardware, and control systems. Most projects involve writing code that talks to real hardware, runs on FPGAs, or drives numerical simulation.
