@@ -63,9 +63,6 @@ Text processing system for measuring similarity between words using vector repre
 ---
 
 ## Connect
-
-- **Email:** [tannazhchowdhury@gmail.com](mailto:tannazhchowdhury@gmail.com)  
 - **LinkedIn:** [linkedin.com/in/tannaz-chowdhury-5365691ba](https://www.linkedin.com/in/tannaz-chowdhury-5365691ba/)  
-- **GitHub:** [github.com/TannazC](https://github.com/TannazC)
 
 Open to roles and collaborations that involve low level programming, control systems, and hardware aware software.
