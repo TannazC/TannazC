@@ -1,68 +1,95 @@
 # Hi, I'm Tannaz Chowdhury
 
-Engineering Science student at the University of Toronto, focusing on computer and electrical systems. Most of my work sits at the boundary between software and hardware, from FPGA games to control systems and numerical simulation.
+Computer Engineering @ The University of Toronto focused on computer architecture, digital systems, and hardware/software co-design.
+
+I am interested in projects that sit at the intersection of Verilog, Assembly, and systems programming, where software directly interacts with hardware and architectural decisions matter.
+
+---
+
+## What I Care About
+
+- Computer architecture in practice  
+- RTL design and FPGA systems  
+- Interrupt-driven embedded programming  
+- Memory-mapped I/O and low-level control  
+- Hardware-aware software design  
+- Control systems and real-time behavior  
 
 ---
 
 ## Tech Stack
 
-- **Languages:** C, C++, Python, MATLAB, Verilog, SQL  
-- **Concepts:** Embedded systems, control systems, numerical simulation, FPGA design, data analysis, algorithms  
-- **Tools & Platforms:** Linux, Git/GitHub, DE1-SoC, VGA pipeline, LTSpice, Onshape CAD, Arduino  
+**Languages:**  
+C, C++, RISC-V Assembly, Verilog, Python, MATLAB, SQL  
+
+**Architecture & Systems Concepts:**  
+Finite state machines, synchronous digital design, interrupt systems, memory-mapped I/O, datapath/control separation, real-time control, numerical modeling  
+
+**Platforms & Tools:**  
+DE1-SoC (Cyclone V FPGA), Nios V (RISC-V), VGA pipeline, ModelSim, GDB, Linux, Git/GitHub, LTSpice, Arduino  
 
 ---
 
-## Featured Projects
+## Selected Hardware & Architecture Projects
 
-### Lane-Runner FPGA/VGA Game · Verilog, C
+### RISC-V Assembly Systems · DE1-SoC
 
-Multi lane obstacle avoidance game implemented directly in hardware on a DE1 SoC board.
+Low-level interrupt-driven systems written entirely in assembly.
 
-- Drove a 640×480 VGA display with a custom sprite pipeline and `.mif` ROMs for pixel accurate rendering  
-- Implemented player movement using on board keys with collision detection across five discrete lanes  
-- Designed a modular architecture with separate Player, Obstacle, and Game state machines plus a render pipeline, using LEDs for rapid hardware debugging  
+- Configured `mstatus`, `mie`, `mtvec`, and `mcause` to implement timer and pushbutton interrupts  
+- Designed structured interrupt service routines with correct calling conventions and stack discipline  
+- Controlled LEDs and HEX displays through direct memory-mapped I/O  
+- Built event-driven systems without busy-wait polling  
 
-> Repository: _add link here_
-
----
-
-### Hydrofoil Auto Stabilization System · MATLAB, Embedded C
-
-Control system for active stabilization of a human powered hydrofoil.
-
-- Collected and filtered more than 10,000 ultrasonic sensor readings using mean and median filters for reliable altitude sensing  
-- Implemented multi axis PID control in MATLAB and embedded C to keep the foil within a stable flight window  
-- Integrated control logic with servos and Arduino based actuation, validating performance through simulation and bench tests  
-
-> Repository: _add link here_
+Focus: understanding processor control flow, trap handling, and architectural state transitions.
 
 ---
 
-### Bridge Load Simulation and Optimisation · Python, MATLAB
+### FPGA Digital Systems Labs · Verilog
 
-Numerical modelling of structural response under moving loads.
+Structured progression from combinational logic to full finite state machine systems.
 
-- Modelled moving load distribution along a bridge to identify high stress and potential failure zones  
-- Used Python (NumPy) and MATLAB to compute and visualise displacement and internal force profiles  
-- Explored cross sectional geometry changes to improve performance under repeated loading and increase safety margins  
+- Designed one-hot and binary-encoded FSMs for sequence detection  
+- Built synchronous counters using both structural (T flip-flop chains) and behavioral (`Q <= Q + 1`) styles  
+- Implemented a Morse-code transmitter using a control FSM + shift register + timing divider  
+- Generated human-visible timing from a 50 MHz clock using clock-enable logic  
 
-> Repository: _add link here_
+Focus: disciplined synchronous design, timing correctness, and datapath/control separation.
 
 ---
 
-### Semantic Similarity System · Python
+### Lane Runner FPGA/VGA Game · Verilog, C
 
-Text processing system for measuring similarity between words using vector representations.
+Real-time obstacle avoidance game implemented directly in hardware.
 
-- Built semantic descriptor vectors from corpus data and compared them using cosine similarity  
-- Implemented dictionary based data structures for efficient lookup, scoring, and evaluation  
-- Focused on transparent algorithms and reproducible experiments rather than black box models  
+- Drove a 640×480 VGA display using a custom sprite pipeline and `.mif` ROMs  
+- Designed modular Player, Obstacle, and Game FSMs with structured state transitions  
+- Implemented collision detection across discrete lanes in hardware  
+- Used LEDs and internal signals for real-time debugging on FPGA  
 
-> Repository: _add link here_
+Focus: hardware state machines controlling graphics timing and game logic.
+
+---
+
+### Hydrofoil Active Stabilization · MATLAB, Embedded C
+
+Control system for a human-powered hydrofoil.
+
+- Filtered >10,000 ultrasonic sensor readings for stable altitude measurement  
+- Implemented multi-axis PID control in MATLAB and embedded C  
+- Integrated control logic with servo actuation and validated system response  
+
+Focus: real-time feedback control and embedded execution.
+
+---
+
+## I enjoy building systems where understanding the architecture is necessary to make the design work.
 
 ---
 
 ## Connect
-- **LinkedIn:** [linkedin.com/in/tannaz-chowdhury-5365691ba](https://www.linkedin.com/in/tannaz-chowdhury-5365691ba/)  
 
-Open to roles and collaborations that involve low level programming, control systems, and hardware aware software.
+**LinkedIn:**  
+https://www.linkedin.com/in/tannaz-chowdhury-5365691ba/
+
+Open to opportunities involving computer architecture, FPGA design, embedded systems, and low-level systems programming.
